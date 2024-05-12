@@ -15,15 +15,39 @@ body {
     height: 497px;
     align-items: center;
     text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    font-family: 'Outfit', sans-serif;
 }
 
 img {
-    width: 240px;
+    width: 290px;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;
 }
+
+p {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') format('woff2'),
+         url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') format('woff');
+    /* Adicione mais formatos de fonte, se necessário */
+}
+
+
 
 /*
 
