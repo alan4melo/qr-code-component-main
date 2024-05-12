@@ -1,0 +1,67 @@
+body {
+    background-color:hsl(212, 45%, 89%);
+}
+
+.caixa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 320px;
+    height: 497px;
+    align-items: center;
+    text-align: center;
+}
+
+img {
+    width: 240px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+/*
+
+Essa técnica usa position: absolute para posicionar a div relativamente à janela do navegador e 
+top: 50% e left: 50% para movê-la para o centro da página. 
+Em seguida, transform: translate(-50%, -50%) é usado para ajustar a posição da div 
+de modo que seu centro fique exatamente no meio da página, independentemente do tamanho da div. 
+Isso funciona para desktop e dispositivos móveis.
+
+.div-centralizada {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+div {
+    background-color: white;
+    width: 320px;
+    height: 497px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    align-content: center;
+           
+}
+
+img {
+    width: 240px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
